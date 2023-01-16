@@ -18,3 +18,17 @@ repos:
       - id: sort-simple-yaml
       - id: trailing-whitespace
       - id: check-added-large-files
+  # - repo: local
+  #   hooks:
+  #     - id: exlixr format
+  #       name: exlixr format
+  #       entry: scripts/helpers/format.sh
+  #       language: script
+  #       pass_filenames: true
+  # - repo: local
+  #   hooks:
+  #     - id: exlixr test
+  #       name: exlixr test
+  #       entry: scripts/helpers/test.sh
+  #       language: script
+  #       pass_filenames: true

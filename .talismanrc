@@ -1,0 +1,8 @@
+fileignoreconfig:
+- filename: .env.example
+  checksum: 84c88f50067b5cd9e45061b9fed1e1db832f4fd25958fa7498896a4d8aee8036
+- filename: scripts/set_env.sh
+  checksum: bafc186e4ad529477b9281c66961ff48fd29e9ff0edf4065c9ac0f6a9d4a472a
+- filename: scripts/localpostgresdocker.sh
+  checksum: 5155b29b93e418529bdaa326849f7421c3b36742b8963f6a2aa565ddaba0f2d5
+version: "0.0.1"
